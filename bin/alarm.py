@@ -2,10 +2,6 @@ import os
 import schedule
 
 from Tkinter import *
-
-from pygame import mixer
-
-print('Loading Alarm Module')
 class Alarm: 
 
 	# Create an alarm that will sound. 
@@ -30,16 +26,6 @@ class Alarm:
 			schedule.every().friday.at(at).do(action)
 		elif weekday == 'saturday': 
 			schedule.every().saturday.at(at).do(action)
-
-	def play_podcast(self):
-		print("Playing podcast")
-		root = Tk()
-
-		mixer.init()
-		mixer.music.load('files/podcast.mp3')
-		mixer.music.play()
-
-		root.mainloop()
 
 	def print_feedback(self, weekday, at):
 		print("Setting alarm for '" + weekday + "' at '" + at + "' to play podcast")
