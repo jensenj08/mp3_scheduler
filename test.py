@@ -8,3 +8,4 @@ def get_podcast_collection(podcast_name):
 	return collection
 
 dick_collection = get_podcast_collection('files')
+dick_collection.play()
