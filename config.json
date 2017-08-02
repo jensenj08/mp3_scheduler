@@ -1,0 +1,16 @@
+{
+    "podcasts":[
+    	{
+    		"title" : "Test",
+    		"weekday" : "tuesday",
+    		"at" : "23:50",
+    		"path" : "C:/Users/jense/Desktop/podcast/files"
+    	},
+		{
+    		"title" : "Test",
+    		"weekday" : "tuesday",
+    		"at" : "23:52",
+    		"path" : "C:/Users/jense/Desktop/podcast/files"
+    	}
+    ]
+}
