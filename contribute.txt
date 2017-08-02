@@ -1,0 +1,17 @@
+Contributing to this project
+
+Features/Wishlist: 
+	Touch podcast files that have been played
+	in the PodcastCollection class
+	touch as file to update the timestamp to a now 
+	when the file is played 
+
+	Issue a command to load a podcast from a rss feed
+
+	Issue a command to update all podcasts
+
+	Issue a command to display all alarms
+
+	Issue a command to cancel a command
+
+	Issue a command to stop playing the alarm
