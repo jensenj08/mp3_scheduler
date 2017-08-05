@@ -1,11 +1,12 @@
-import config
-from bin.podcast_collection import PodcastCollection
 import os 
+from bin.podcast_collection import PodcastCollection
 
-def get_podcast_collection(podcast_name):
-	podcast_location = config.PODCAST_DIRECTORY + os.sep + podcast_name
-	collection = PodcastCollection(podcast_location)
-	return collection
+casts = PodcastCollection('files/fresh_air')
+casts.play()
 
-dick_collection = get_podcast_collection('files')
-dick_collection.play()
+#played_files = PodcastDirectoryConfig('files/fresh_air')
+
+#played_files.episode_played('my_podcast_file.mp3')
+
+#played_files.save()
+
